@@ -7,6 +7,12 @@
     padding: 5px;
     border: 5px solid rgba(241, 90, 36, .9);
     border-radius: 20px;
-    /*margin-right: 10px;*/
-    align-self: centre;
+    text-align: center;
+    transition: border 5s ease-in-out;
+}
+
+.site-navigation__link:hover {
+    border: 7px dotted rgba(241, 90, 36, .9);
+    text-decoration: underline;
+    font-weight: bold;
 }
